@@ -116,7 +116,7 @@ blockquote {
 ----------------------------------------------------------------------------- */
 .header {
 	color: #ffffff;
-	background-color: rgba(0, 0, 0, 0.10);
+	background-color: rgba(35, 65, 0, 0.1);
 	padding: 10px 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -395,7 +395,7 @@ blockquote {
 	border-radius: 0;
 	padding: 8px 20px;
 	border: 1px solid #cacaca;
-	color: #666666;
+	color: #ffffff;
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -695,7 +695,7 @@ textarea {
 	bottom: 10px;
 	text-align: center;
 	width: 100%;
-	color: #ffffff;
+	color: rgb(179,226,255);
 	font-size: 13px;
 	font-weight: 300;
 }
