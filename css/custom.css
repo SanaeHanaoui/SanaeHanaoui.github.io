@@ -1,15 +1,19 @@
-a.color1 {
+.color1{
 	
 	color: rgb(179,226,255);
 	
 }
-a.color2 {
+.color2{
 	
 	color: rgb(35,65,22);
 }
 
-span.color1 {
+.color-bg{
 	
-	color: rgb(179,226,255);
+	background-color: rgb(179,226,255);
 	
+}
+.color3{
+	
+	color: rgb(0, 51, 204);
 }
