@@ -116,8 +116,8 @@ blockquote {
 /* Layout
 ----------------------------------------------------------------------------- */
 .header {
-	color: #ffffff;
-	background-color: rgba(35, 65, 0, 0.1);
+	color: #ffff;
+	background-color: rgba(204, 204, 255, 0.1);
 	padding: 10px 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -143,7 +143,7 @@ blockquote {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(0, 0, 0, 0.55);
+	background-color: rgba(0, 0, 0, 0.1);
 	content: "";
 }
 .banner-caption {

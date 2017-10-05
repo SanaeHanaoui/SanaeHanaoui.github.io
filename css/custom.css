@@ -1,19 +1,80 @@
 .color1{
-	
-	color: rgb(179,226,255);
-	
+
+	color:#A5C4E5;
+
+
 }
 .color2{
-	
+
 	color: rgb(35,65,22);
 }
 
 .color-bg{
-	
+
 	background-color: rgb(179,226,255);
-	
+
 }
 .color3{
-	
+
 	color: rgb(0, 51, 204);
+}
+
+.banner-caption{
+	display: flex;
+	text-align: center;
+	padding-top: 2em;
+}
+
+.main-area{
+	background-image: url("/images/Light-blue-tech2.jpg");
+ 	background-size: cover;
+
+}
+.twin {
+	padding: 2em;
+	color: #000;
+}
+
+.twin:last-of-type {
+
+	color: #000;
+}
+
+.ar{
+
+	display: flex;
+	flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		align-self: flex-end;
+}
+
+/* Check for CSS Grid support: */
+@supports (grid-area: auto) {
+
+	/* Disable fallback max-width center aligned rule: */
+		/* Four-column layout: Two center columns have total width of 50em: */
+		@media screen and (min-width: 600px) {
+		.main-area > * {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(auto, 50em)) ;
+		}
+
+		/* Center items by placing them in the two center columns: */
+
+		.more-content
+		 {
+			grid-column: 2/4;
+		}
+
+		/* Use automatic grid placement + span to let each item span two columns: */
+		.twin aside {
+
+			grid-column-start: span 2;
+grid-column-end: auto;
+
+		}
+
+
+}
 }
